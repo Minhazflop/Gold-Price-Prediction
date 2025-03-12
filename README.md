@@ -1,8 +1,4 @@
-Below is the **README.md** content formatted exactly as you would copy and paste it into your GitHub repository's `README.md` file. This version includes all necessary details from your project, with placeholders for elements like repository URLs and evaluation metrics that you can customize as needed. Simply copy the entire block below and paste it into your GitHub repository's `README.md` file.
 
----
-
-```markdown
 # Gold Price Prediction using Random Forest Regressor
 
 This project demonstrates the implementation of a **Random Forest Regressor** to predict gold prices based on historical financial data. The dataset includes various financial indicators such as stock prices, oil prices, silver prices, and currency exchange rates, which are used to train the model and predict future gold prices.
