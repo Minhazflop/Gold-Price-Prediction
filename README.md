@@ -1,44 +1,55 @@
-# Gold Price Prediction
+# Gold Price Prediction using Random Forest Regressor
 
-## 📌 Overview
-This project predicts gold prices using a **Random Forest Regressor**. It takes historical data, preprocesses it, and trains a machine-learning model to estimate future gold prices.
+This project demonstrates the implementation of a **Random Forest Regressor** to predict gold prices based on historical financial data. The dataset includes various financial indicators such as stock prices, oil prices, silver prices, and currency exchange rates, which are used to train the model and predict future gold prices.
 
-## 📂 Dataset
-- The dataset contains gold price data with various influencing factors.
-- Ensure that `gld_price_data.csv` is placed in the correct directory.
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Dataset](#dataset)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Data Preprocessing](#data-preprocessing)
+6. [Model Training](#model-training)
+7. [Results](#results)
+8. [Visualization](#visualization)
+9. [Dependencies](#dependencies)
+10. [Contributing](#contributing)
+11. [License](#license)
 
-## 🛠 Installation
-### **1. Clone the Repository**
-```sh
-   git clone https://github.com/your-repo/gold-price-prediction.git
-   cd gold-price-prediction
-```
-### **2. Install Dependencies**
-```sh
-   pip install -r requirements.txt
-```
+---
 
-## 🚀 Usage
-Run the Jupyter Notebook to train and test the model:
-```sh
-   jupyter notebook Gold Price Prediction.ipynb
-```
+## Project Overview
+The goal of this project is to predict gold prices using a Random Forest Regressor, a powerful ensemble machine learning algorithm. The project includes data exploration, preprocessing, model training, evaluation, and visualization of actual vs. predicted gold prices.
 
-## 🔎 Features
-✅ Data Preprocessing & Visualization  
-✅ Train-Test Split & Model Training  
-✅ Prediction & Performance Evaluation  
-✅ Matplotlib Graphs for Visualization  
+Key steps include:
+- Loading and exploring the dataset.
+- Analyzing correlations between features.
+- Splitting data into training and testing sets.
+- Training a Random Forest Regressor model.
+- Evaluating model performance using metrics.
+- Visualizing the actual vs. predicted gold prices.
 
-## 📊 Model Used
-- **Random Forest Regressor** from `sklearn.ensemble`
-- Performance is evaluated using Mean Absolute Error (MAE), Mean Squared Error (MSE), etc.
+---
 
-## 📈 Results & Analysis
-- The model's predictions are compared against actual prices.
-- The visualization plots help assess the accuracy.
+## Dataset
+The dataset used in this project is `gld_price_data.csv`, which contains the following columns:
+- **Date**: The date of the observation.
+- **SPX**: S&P 500 stock index.
+- **GLD**: Gold price (target variable).
+- **USO**: United States Oil Fund price.
+- **SLV**: Silver price.
+- **EUR/USD**: Euro to US Dollar exchange rate.
 
-## 🤝 Contributing
-- Feel free to fork the repository and submit pull requests.
+### Dataset Summary
+- **Number of rows**: 2,290
+- **Number of columns**: 6
+- **Missing Values**: None (confirmed via `isnull().sum()`)
 
+---
+
+## Installation
+To run this project, ensure you have Python installed along with the required libraries. Follow these steps:
+
+1. Clone this repository:
+   ```bash
+   git clone <repository-url>
 
