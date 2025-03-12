@@ -18,7 +18,7 @@ This project demonstrates the implementation of a **Random Forest Regressor** to
 8. [Visualization](#visualization)
 9. [Dependencies](#dependencies)
 10. [Contributing](#contributing)
-11. [License](#license)
+
 
 ---
 
@@ -144,13 +144,7 @@ Contributions are welcome! If you would like to contribute to this project, plea
 
 ---
 
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
----
-```
-
----
 
 ### How to Use This on GitHub:
 
